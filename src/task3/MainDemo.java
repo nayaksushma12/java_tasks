@@ -32,11 +32,11 @@ public class MainDemo {
         customerService.addCustomer(new Customer(40, "Soumya Bhat"));
         customerService.addCustomer(new Customer(50, "Ramya Kharvi"));
 
-        feedbackService.addFeedback(new Feedback(1,"Good",customerService.customers[0]));
-        feedbackService.addFeedback(new Feedback(2,"Bad",customerService.customers[1]));
-        feedbackService.addFeedback(new Feedback(3,"Best",customerService.customers[0]));
-        feedbackService.addFeedback(new Feedback(4,"Average",customerService.customers[3]));
-        feedbackService.addFeedback(new Feedback(5,"Okay",customerService.customers[2]));
+        feedbackService.addFeedback(new Feedback(1,"Good",customerService.getCustomers()[0]));
+        feedbackService.addFeedback(new Feedback(2,"Bad",customerService.getCustomers()[1]));
+        feedbackService.addFeedback(new Feedback(3,"Best",customerService.getCustomers()[0]));
+        feedbackService.addFeedback(new Feedback(4,"Average",customerService.getCustomers()[3]));
+        feedbackService.addFeedback(new Feedback(5,"Okay",customerService.getCustomers()[2]));
 
 
         MainDemo mainDemo = new MainDemo();

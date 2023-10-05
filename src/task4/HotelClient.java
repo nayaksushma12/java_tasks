@@ -20,13 +20,13 @@ public class HotelClient {
         demo[2] = room3;
         Room room4 = new Room(404, 1, null, "single", 1000);
         demo[3] = room4;
-        Room room5 = new Room(405, 1, guest3, "deluxe", 3000);
+        Room room5 = new Room(405, 2, guest3, "deluxe", 3000);
         demo[4] = room5;
-        Room room6 = new Room(406, 1, null, "single", 1000);
+        Room room6 = new Room(406, 2, null, "single", 1000);
         demo[5] = room6;
-        Room room7 = new Room(407, 1, guest4, "Private", 4000);
+        Room room7 = new Room(407, 2, guest4, "Private", 4000);
         demo[6] = room7;
-        Room room8 = new Room(408, 1, null, "single", 1000);
+        Room room8 = new Room(408, 2, null, "single", 1000);
         demo[7] = room8;
 
 
